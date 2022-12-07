@@ -1,0 +1,38 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "untitled",
+	"origin" : "ec7710a3-757a-11ed-90a3-50ebf6c3a721",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"__presetid" : "ec7710a3-757a-11ed-90a3-50ebf6c3a721",
+		"modulator_freq_ratio" : 		{
+			"value" : 1.0
+		}
+,
+		"modulator_level" : 		{
+			"value" : 751.0
+		}
+,
+		"pan" : 		{
+			"value" : 0.5
+		}
+,
+		"carrier_level" : 		{
+			"value" : 1.0
+		}
+,
+		"carrier_freq" : 		{
+			"value" : 171.0
+		}
+,
+		"bang" : 		{
+			"value" : 0.0
+		}
+
+	}
+
+}

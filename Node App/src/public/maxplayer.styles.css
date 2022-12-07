@@ -1,0 +1,30 @@
+html {
+    /* zoom: 200%; */
+}
+
+h1, h2, h3, h4, h5, h6, p, tr, td, a {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+table tr {
+    height: 20px;
+}
+
+thead td {
+    text-align: center;
+}

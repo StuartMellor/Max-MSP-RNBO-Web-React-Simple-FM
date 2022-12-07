@@ -1,0 +1,9 @@
+export { default as LargeDial } from "./LargeDial";
+export { default as Play } from "./Play";
+export { default as Record } from "./Record";
+export { default as Slider1 } from "./Slider1";
+export { default as Slider } from "../UIComponents/Controls/Slider";
+export { default as SmallDial } from "./SmallDial";
+export { default as Stop } from "./Stop";
+export { default as Switch } from "./Switch";
+export { default as Trigger } from "./Trigger";
