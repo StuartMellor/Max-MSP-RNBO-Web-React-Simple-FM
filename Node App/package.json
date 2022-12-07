@@ -1,0 +1,42 @@
+{
+  "name": "wobble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-deprecation dist/server.js",
+    "nstart": "nodemon -w dotenv/config  dist/server.js dist/server.js -w dist",
+    "compile-server": "babel server --presets=@babel/env --out-dir dist --source-maps",
+    "watch-server": "babel server --presets=@babel/env --out-dir dist --source-maps --watch",
+    "start-hook": "nodemon -w server server/start_hook.js",
+    "compile": "webpack",
+    "watch": "babel src --presets @babel/react --out-dir static --watch",
+    "startFS": "nodemon -w dist/fileServer.js dist/fileServer.js",
+    "dev-all": "concurrently  \"npm run watch\" \"npm run watch-server\" \" npm run nstart\" \"webpack \"",
+    "dev": "concurrently \"webpack \"  \" npm run nstart\" ",
+    "dev-all-hook": "npm run watch ; npm run start-hook",
+    "lint": "eslint --fix --ext js,jsx src server webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rnbo/js": "^1.0.1",
+    "express": "^4.18.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-slider": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
