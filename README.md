@@ -10,7 +10,7 @@ Specific Goals:
 
 To get up and running:  
 1. Download node if you haven't already (I reccommend using NVM https://github.com/nvm-sh/nvm)  
-2. Clone/Download this repository (I assume you've already got git dowloaded).  
+2. Clone/Download this repository (I assume you already have git dowloaded).  
 3. Open a command prompt and cd (change directory) into the "Node App" folder:  
   ```cd "C:/Users/[username]/Documents/UIDemo/Node App"```  
   for example...
