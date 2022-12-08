@@ -18,3 +18,5 @@ To get up and running:
 ```npm i```  
 5. Run the following command to compile and run the project:  
 ```npm run dev-all```  
+6. Go to the following address:  
+7. [localhost:3000](localhost:3000/)
